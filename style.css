@@ -1,0 +1,61 @@
+.nav-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+margin-left: 5px;
+}
+.rightbar {
+
+display: flex;
+width: 300px;
+justify-content: space-around;
+align-items: center;
+}
+.main {
+    padding: 30px 0px;
+}
+.footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    
+}
+.icons {
+
+    display: flex;
+    width: 150px;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.icons i{
+   width: 30px;
+    height: 30px;
+    padding: 7px;
+    border-radius: 50%;
+}
+.left, .right {
+    width: 40%;
+    
+}
+a{
+    color: black;
+}
+.right a{
+    
+    padding: 15px;
+}
+.middle {
+    width: 100%;
+}
+.selected {
+    border-right: 3px solid black;
+    padding-right: 5px;
+}
+.dollar {
+    font-size: 30px;
+}
+.img{
+    
+    max-height: 500px;
+}
